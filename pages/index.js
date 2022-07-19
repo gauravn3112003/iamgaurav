@@ -1,7 +1,7 @@
 import HomePage from "./HomePage.js";
 import baseUrl from "../baseUrl.js";
 
-import Head from "next/Head";
+import Head from "next/head"
 
 export default function Home(props) {
   return (
