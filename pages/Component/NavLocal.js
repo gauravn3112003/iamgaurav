@@ -1,4 +1,4 @@
-const Navigation = [
+export const Navigation = [
   {
     location: "/",
     Name: "Home",
@@ -27,4 +27,4 @@ export const NavLocal = () => {
   return <>hey</>;
 };
 
-export default Navigation;
+export default NavLocal;

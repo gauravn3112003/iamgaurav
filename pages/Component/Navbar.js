@@ -4,7 +4,7 @@ import Router from "next/router";
 import { useState } from "react";
 import Profile from "../Component/Profile";
 import { parseCookies } from "nookies";
-import NavLocal from "./NavLocal";
+import { Navigation } from "./NavLocal";
 const Navbar = () => {
   const [search, setSearch] = useState({
     title: "",
@@ -77,7 +77,7 @@ const Navbar = () => {
             </div>
 
             <ul className="lis">
-              {NavLocal.map((item) => {
+              {Navigation.map((item) => {
                 return (
                   <Link key={item.location} href={item.location}>
                     <a>
