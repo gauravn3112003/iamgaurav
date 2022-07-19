@@ -19,9 +19,9 @@ const DashNavbar = () => {
       </div>
       <div className={`dashContainer ${sidebar}`}>
         <div className="dashList">
-          {/* <Link href="/admin/CreateBlogs">
+          <Link href="/admin/CreateBlogs">
             <a>Create Blog</a>
-          </Link> */}
+          </Link>
           <Link href="/">
             <a>All Contact Us</a>
           </Link>

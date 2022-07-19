@@ -1,5 +1,6 @@
 import HomePage from "./HomePage.js";
 import baseUrl from "../baseUrl.js";
+import React from "react";
 
 import Head from "next/head"
 
