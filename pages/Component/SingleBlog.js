@@ -5,7 +5,7 @@ const SingleBlog = (props) => {
     <>
       <div className="p-4  md:w-1/3">
         <div className="w-25 h-full overflow-hidden rounded-lg border-2 border-gray-200 border-opacity-60">
-          <img
+          <image
             className="w-full object-cover object-center md:h-36 lg:h-48"
             src={props.image}
             alt="blog"

@@ -35,7 +35,7 @@ const Post = (props) => {
                   </h1>
                   <div className="flex items-center pt-5 md:pt-10">
                     <div>
-                      <img
+                      <image
                         src="https://images.pexels.com/photos/4298629/pexels-photo-4298629.jpeg?auto=compress&cs=tinysrgb&w=600"
                         className="border-grey-70 h-20 w-20 rounded-full border-2 shadow"
                         alt="author image"
@@ -62,7 +62,7 @@ const Post = (props) => {
 
                   <div className="border-lila flex flex-col items-center border-t py-12 pt-12 md:flex-row md:items-start xl:pb-20">
                     <div className="w-3/4 sm:w-2/5 lg:w-1/4 xl:w-1/5">
-                      <img
+                      <image
                         src="https://images.pexels.com/photos/4298629/pexels-photo-4298629.jpeg?auto=compress&cs=tinysrgb&w=600"
                         className="rounded-ful  l shadow"
                         alt="author image"

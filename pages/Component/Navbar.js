@@ -48,7 +48,7 @@ const Navbar = () => {
         <div className="navbar">
           <div className="left">
             <div className="image">
-              <img
+              <image
                 src="https://images.pexels.com/photos/6948652/pexels-photo-6948652.jpeg?auto=compress&cs=tinysrgb&w=600"
                 width="30px"
                 alt=""
@@ -62,7 +62,7 @@ const Navbar = () => {
             <div className="center">
               <form action={`/Search/ ${search.title} `} className="search">
                 <input
-                className="px-2"
+                  className="px-2"
                   type="Search"
                   name="title"
                   value={search.title ? search.title : ""}
@@ -79,9 +79,11 @@ const Navbar = () => {
             <ul className="lis">
               {NavLocal.map((item) => {
                 return (
-                  <a key={item.location} href={item.location}>
-                    <i className={`bi pr-3 ${item.icon}`}></i> {item.Name}
-                  </a>
+                  <Link key={item.location} href={item.location}>
+                    <a>
+                      <i className={`bi pr-3 ${item.icon}`}></i> {item.Name}
+                    </a>
+                  </Link>
                 );
               })}
               {user.role === "root" ? (
