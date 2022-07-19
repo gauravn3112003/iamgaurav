@@ -84,21 +84,31 @@ const Post = (props) => {
                       </p>
 
                       <div className="flex items-center justify-center pt-5 md:justify-start">
-                        <a href="/">
-                          <i className="bx bxl-facebook-square text-primary hover:text-yellow text-2xl"></i>
-                        </a>
-                        <a href="/" className="pl-4">
-                          <i className="bx bxl-twitter text-primary hover:text-yellow text-2xl"></i>
-                        </a>
-                        <a href="/" className="pl-4">
-                          <i className="bx bxl-dribbble text-primary hover:text-yellow text-2xl"></i>
-                        </a>
-                        <a href="/" className="pl-4">
-                          <i className="bx bxl-linkedin text-primary hover:text-yellow text-2xl"></i>
-                        </a>
-                        <a href="/" className="pl-4">
-                          <i className="bx bxl-instagram text-primary hover:text-yellow text-2xl"></i>
-                        </a>
+                        <Link>
+                          <a href="/">
+                            <i className="bx bxl-facebook-square text-primary hover:text-yellow text-2xl"></i>
+                          </a>
+                        </Link>
+                        <Link>
+                          <a href="/" className="pl-4">
+                            <i className="bx bxl-twitter text-primary hover:text-yellow text-2xl"></i>
+                          </a>
+                        </Link>
+                        <Link>
+                          <a href="/" className="pl-4">
+                            <i className="bx bxl-dribbble text-primary hover:text-yellow text-2xl"></i>
+                          </a>
+                        </Link>
+                        <Link>
+                          <a href="/" className="pl-4">
+                            <i className="bx bxl-linkedin text-primary hover:text-yellow text-2xl"></i>
+                          </a>
+                        </Link>
+                        <Link>
+                          <a href="/" className="pl-4">
+                            <i className="bx bxl-instagram text-primary hover:text-yellow text-2xl"></i>
+                          </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
