@@ -116,7 +116,7 @@ const Login = () => {
             </div>
 
             <div className="text-center">
-              If you don't have an account 
+              If you dont have an account 
               <Link href="/Register">
                 <a className="pColor "> Register</a>
               </Link>

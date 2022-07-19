@@ -69,7 +69,7 @@ const Skills = () => {
           />
         </div>
         <button className="flex mx-auto mt-16 primaryBtn   py-2 px-8   rounded text-lg">
-          Let's Work
+          Lets Work
         </button>
       </div>
     </>

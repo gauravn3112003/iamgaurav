@@ -113,26 +113,26 @@ const Post = (props) => {
                 </p>
                 <div className="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
                   <Link href="/">
-                      <>
-                    <a i className="bx bxl-facebook-square hover:text-yellow text-2xl text-white"></i>
+                    <a className="pl-4">
+                      <i className="bx bxl-facebook-square hover:text-yellow text-2xl text-white"></i>
                     </a>
                   </Link>
-                  <Link href="/" >
+                  <Link href="/">
                     <a className="pl-4">
                       <i className="bx bxl-twitter hover:text-yellow text-2xl text-white"></i>
                     </a>
                   </Link>
-                  <Link href="/" >
+                  <Link href="/">
                     <a className="pl-4">
                       <i className="bx bxl-dribbble hover:text-yellow text-2xl text-white"></i>
                     </a>
                   </Link>
-                  <Link href="/" >
+                  <Link href="/">
                     <a className="pl-4">
                       <i className="bx bxl-linkedin hover:text-yellow text-2xl text-white"></i>
                     </a>
                   </Link>
-                  <Link href="/" >
+                  <Link href="/">
                     <a className="pl-4">
                       <i className="bx bxl-instagram hover:text-yellow text-2xl text-white"></i>
                     </a>
