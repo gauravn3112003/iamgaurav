@@ -18,7 +18,7 @@ const AllBlogs = (props) => {
             <div className="flex flex-wrap items-center">
               <div className="relative w-full max-w-full flex-1 flex-grow px-4">
                 <h3 className="text-blueGray-700 text-base font-semibold">
-                  Feedback's
+                  Feedbacks
                 </h3>
               </div>
             </div>

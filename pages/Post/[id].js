@@ -1,5 +1,7 @@
 import { useRouter } from "next/router";
 import React from "react";
+import Link from "next/link";
+
 import baseUrl from "../../baseUrl";
 const Post = (props) => {
   const artical = props.blogs.artical;
@@ -110,21 +112,31 @@ const Post = (props) => {
                   © Copyright 2022. All right reserved, ATOM.
                 </p>
                 <div className="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
-                  <a href="/">
-                    <i className="bx bxl-facebook-square hover:text-yellow text-2xl text-white"></i>
-                  </a>
-                  <a href="/" className="pl-4">
-                    <i className="bx bxl-twitter hover:text-yellow text-2xl text-white"></i>
-                  </a>
-                  <a href="/" className="pl-4">
-                    <i className="bx bxl-dribbble hover:text-yellow text-2xl text-white"></i>
-                  </a>
-                  <a href="/" className="pl-4">
-                    <i className="bx bxl-linkedin hover:text-yellow text-2xl text-white"></i>
-                  </a>
-                  <a href="/" className="pl-4">
-                    <i className="bx bxl-instagram hover:text-yellow text-2xl text-white"></i>
-                  </a>
+                  <Link href="/">
+                      <>
+                    <a i className="bx bxl-facebook-square hover:text-yellow text-2xl text-white"></i>
+                    </a>
+                  </Link>
+                  <Link href="/" >
+                    <a className="pl-4">
+                      <i className="bx bxl-twitter hover:text-yellow text-2xl text-white"></i>
+                    </a>
+                  </Link>
+                  <Link href="/" >
+                    <a className="pl-4">
+                      <i className="bx bxl-dribbble hover:text-yellow text-2xl text-white"></i>
+                    </a>
+                  </Link>
+                  <Link href="/" >
+                    <a className="pl-4">
+                      <i className="bx bxl-linkedin hover:text-yellow text-2xl text-white"></i>
+                    </a>
+                  </Link>
+                  <Link href="/" >
+                    <a className="pl-4">
+                      <i className="bx bxl-instagram hover:text-yellow text-2xl text-white"></i>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>

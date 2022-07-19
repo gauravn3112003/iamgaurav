@@ -38,7 +38,7 @@ export default function CardPageVisits(props) {
             <tbody className="">
               {props.Blogs.map((item, index) => {
                 return (
-                  <tr>
+                  <tr key={index}>
                     <th className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left">
                       {index + 1}
                     </th>

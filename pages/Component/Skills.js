@@ -45,33 +45,27 @@ const Skills = () => {
         <div className="flex flex-wrap -m-4">
           <SkillsCard
             name="Gaurav"
-            desc="Fingerstache flexitarian street art 8-bit waist co, subway tile
-                poke farm"
+            desc="Fingerstache flexitarian street art    waist co, subway tile poke farm"
           />
           <SkillsCard
             name="Gaurav"
-            desc="Fingerstache flexitarian street art 8-bit waist co, subway tile
-                poke farm"
+            desc="Fingerstache flexitarian street art    waist co, subway tile poke farm"
           />{" "}
           <SkillsCard
             name="Gaurav"
-            desc="Fingerstache flexitarian street art 8-bit waist co, subway tile
-              poke farm"
+            desc="Fingerstache flexitarian street art    waist co, subway tile  poke farm"
           />{" "}
           <SkillsCard
             name="Gaurav"
-            desc="Fingerstache flexitarian street art 8-bit waist co, subway tile
-            poke farm"
+            desc="Fingerstache flexitarian street art    waist co, subway tile  poke farm"
           />{" "}
           <SkillsCard
             name="Gaurav"
-            desc="Fingerstache flexitarian street art 8-bit waist co, subway tile
-          poke farm"
+            desc="Fingerstache flexitarian street art    waist co, subway tile poke farm"
           />{" "}
           <SkillsCard
             name="Gaurav"
-            desc="Fingerstache flexitarian street art 8-bit waist co, subway tile
-              poke farm"
+            desc="Fingerstache flexitarian street art    waist co, subway tile poke farm"
           />
         </div>
         <button className="flex mx-auto mt-16 primaryBtn   py-2 px-8   rounded text-lg">

@@ -13,7 +13,7 @@ const HomePage = (blogs) => {
         <div className=" shape3"></div> */}
         <div className="overlay">
           <div className="head-home">
-            Hi, <br /> I'm <span className="primaryColor">Unknow</span>
+            Hi, <br /> Im <span className="primaryColor">Unknow</span>
           </div>
           <div className="img-shape">
             <div className="square">
