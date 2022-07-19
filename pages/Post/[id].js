@@ -152,7 +152,7 @@ const Post = (props) => {
             </div>
           </div>
 
-          <script src="/assets/js/main.js"></script>
+          <script src="/assets/js/main.js " async />
         </div>
       </section>
     </>
