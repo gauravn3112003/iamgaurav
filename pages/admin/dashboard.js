@@ -1,9 +1,6 @@
 import React from "react";
 import baseUrl from "../../baseUrl";
 import { parseCookies } from "nookies";
-// // import CardLineChart from "components/Cards/CardLineChart.js";
-// import CardLineChart from "../../components/Cards/CardLineChart";
-// import CardBarChart from "../../components/Cards/CardBarChart.js";
 import CardPageVisits from "../../components/Cards/CardPageVisits.js";
 import CardPageBlogs from "../../components/Cards/CardPageBlogs";
 import CardSocialTraffic from "../../components/Cards/CardSocialTraffic.js";
