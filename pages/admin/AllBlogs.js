@@ -49,8 +49,8 @@ const AllBlogs = (props) => {
               <tbody>
                 {props.blogs.map((item, index) => {
                   return (
-                    <tr className="my-1 border">
-                      <th className="w-1as whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 text-left text-center align-middle text-xs font-bold">
+                    <tr className="my-1 border" key={index}>
+                      <th className="w-1as whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 text-left align-middle text-xs font-bold">
                         {index + 1}
                       </th>
                       <th className="w-96 whitespace-nowrap border-t-0 border-l-0 border-r-0 p-4 px-6 text-left align-middle text-xs">
